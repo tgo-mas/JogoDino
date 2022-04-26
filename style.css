@@ -1,0 +1,45 @@
+html, body {
+  width: 100%;
+  height: 99%;
+  background-color: #fafafa;
+}
+
+h1{
+  position: relative;
+  align-self: center;
+}
+
+#dino{
+  position: absolute;
+  background: url('dino.png');
+  width: 60px;
+  height: 60px;
+  bottom: 10px;
+  left: 10px;
+}
+
+#main-jogo{
+  background: url('background.png');
+  position: absolute;
+  background-repeat: repeat-x;
+  height: 200px;
+  width: 100%;
+}
+
+.cacto{
+  position: absolute;
+  height: 60px;
+  width: 60px;
+  bottom: 10px;
+  background: url('cactus.png');
+}
+
+@keyframes slideright{
+  from{
+    background-position: 70000%;
+  }
+
+  to{
+    background-position: 0%;
+  }
+}
